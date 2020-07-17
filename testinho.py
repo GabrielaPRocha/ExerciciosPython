@@ -117,10 +117,16 @@
 #tan=math.tan(math.radians(angulo))
 #print('Sua tangente: {}'.format(tan))
 #-------------------------------------------------------------------------------
-
-
-
-
+                    #SORTEANDO NOMES
+#import random
+#n1=input('Primeiro Aluno: ')
+#n2=input('Segundo Aluno: ')
+#n3=input('Terceiro Aluno: ')
+#n4=input('Quarto Aluno: ')
+#lista=[n1,n2,n3,n4]
+#escolhide =random.choice(lista)
+#print('O sorteado foi {}'.format(escolhide))
+#------------------------------------------------------------------------------
 
 
 
