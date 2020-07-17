@@ -127,6 +127,16 @@
 #escolhide =random.choice(lista)
 #print('O sorteado foi {}'.format(escolhide))
 #------------------------------------------------------------------------------
+                #SORTEANDO UMA ORDEM NA LISTA(ARRAY)
+#from random import shuffle
+#n1=input('Primeiro Aluno: ')
+#n2=input('Segundo Aluno: ')
+#n3=input('Terceiro Aluno: ')
+#n4=input('Quarto Aluno: ')
+#lista=[n1,n2,n3,n4]
+#shuffle(lista)
+#print('A ordem será:')
+#print(lista)
 
 
 
