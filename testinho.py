@@ -98,18 +98,25 @@
 #num= random.randint(1,50)
 #print('sera sorteado um numero de 1 a 50.Boa sorte\n numero sorteado é: {}'.format(num))
 #-------------------------------------------------------------------------
-#import emoji
-#print (emoji.emojize("HELLO WORLD",use_aliases=True))
-
-
-
-
-
-
-
-
-
-
+#x= float(input('Por favor insira um valor: '))
+#print('O valor digitado foi {} e sua parte inteira corresponde á {}'.format(x,int(x)))
+#----------------------------------------------------------------------------
+                    #CATETO E HIPOTENUSA
+#x=float(input('comprimento do cateto oposto: '))
+#y=float(input('comprimento do cateto adjacente: '))
+#z= (x**2 + y**2) **(1/2)
+#print('A hipotenusa vai medir {}'.format(z))
+#-------------------------------------------------------------------------------
+                    #SENO COSSENO E TANGENTE
+#import math
+#angulo=float(input('digite o angulo desejado'))
+#seno = math.sin(math.radians(angulo))
+#print('o seno de {} é: {}'.format(angulo,seno))
+#cos = math.cos(math.radians(angulo))
+#print('o cosseno: {}'.format(cos))
+#tan=math.tan(math.radians(angulo))
+#print('Sua tangente: {}'.format(tan))
+#-------------------------------------------------------------------------------
 
 
 
