@@ -180,15 +180,55 @@
 #n = nome.split()
 #print('prazer em conhecelo(a) {}'.format(n[len(n)-1]))
 #print('primeiro nome {} '.format(n[0]))
-------------------------------------------------------------------------------
-
-
-
-
-
-
-
-
+#------------------------------------------------------------------------------
+                #REMEMBER IF AND ELSE
+#pessoa=int(input('digite sua idade: '))
+#if pessoa<18:
+#    anos= 18-pessoa
+#    print('Sinto muito,so daqui a {} anos'.format(anos))
+#else:
+#    print('Seja muito bem vindo(a)')
+#---------------------------------------------------------------------------
+#n1=int(input('digite a primeira nota: '))
+#n2=int(input('digite a segunda nota: '))
+#n3=int(input('digite a terceira nota: '))
+#media= (n1+n2+n3)/3
+#if media>8:
+#    print('arrasou mana {}'.format(media))
+#else:
+#        print('melhore negah {}'.format(media))
+#----------------------------------------------------------------------------
+                #SORTEIO
+import random
+from time import sleep
+sort=random.randint(0,5)
+opiniao=int(input('qual foi o numero pensado: '))
+print('PROCESSANDO..')
+sleep(2)
+if opiniao == sort:
+    print('acertou realmente foi {}'.format(sort))
+if opiniao>5:
+    print('mana é so de 0 a 5')
+else:
+    print('errou,mas nao desista,o numero sorteado foi {}'.format(sort))
+#----------------------------------------------------------------------------
+                #MULTA acima de 80km com if and else
+#km=int(input('qual a velocidade o carro esta? '))
+#mul=(km-80)*7
+#if km>80:
+#    print("""o veiculo sera multado por excesso de velocidade, a multa sera de
+#R$7,00 por km ultrapassado o que se soma {}""".format(mul))  
+#else:
+#    print('Você esta respeitando o limite')
+#----------------------------------------------------------------------------
+                    #VIAGEM 
+#n1=int(input('digite a distancia da viagem: '))
+#if n1>=200:
+#    n2=n1* 0.50
+#    print('sua viagem de {}km a passagem custara R${} '.format(n1,n2))
+#else:
+#    n3=n1*0.45
+#    print('sua viagem de {}km custara R${} '.format(n1,n3))
 
 
 
