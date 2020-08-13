@@ -105,7 +105,7 @@
 #x=float(input('comprimento do cateto oposto: '))
 #y=float(input('comprimento do cateto adjacente: '))
 #z= (x**2 + y**2) **(1/2)
-#print('A hipotenusa vai medir {}'.format(z))
+#print('A hipotenusa vai medir {}.format(z))
 #-------------------------------------------------------------------------------
                     #SENO COSSENO E TANGENTE
 #import math
@@ -137,6 +137,54 @@
 #shuffle(lista)
 #print('A ordem será:')
 #print(lista)
+#------------------------------------------------------------------------------
+                                #mp3#
+#------------------------------------------------------------------------------
+#frase ="Cause as long you are the drive i'm your hitchhikker"
+#print(frase.replace('hitchhikker','camarada'))
+#------------------------------------------------------------------------------
+#te='Testando algo so para ter certeza'
+#print(te[5:])
+#------------------------------------------------------------------------------
+                        #Pessoa tem 'Silva' no nome#
+#x=str(input("digite um  nome")).strip()
+#print('silva' in x.lower())
+#------------------------------------------------------------------------------
+                        #analisador de tesxtos
+#nome=str(input('Digite seu nome completo: '))
+#print('Analisando seu nome..')
+#print('Seu nome em minusculas: {}' .format(nome.lower()))
+#print('seu nome em maiusculas: {}' .format(nome.upper()))
+#print('seu nome tem ao todo {} letras' .format(len(nome)-nome.count(' ')))
+#------------------------------------------------------------------------------
+                    # mostra a quantidade de digitos separadamete
+#x=int(input('digite um numero: '))
+#u= x// 1 % 10
+#d= x//10 %10
+#c=x//100 %10
+#m= x//1000 %10
+#print('Analisando o nomero {}' .format(x))
+#print('Unidade: {}'.format(u))
+#print('Dezena: {}'.format(d))
+#print('Centena: {}'.format(c))
+#print('Milhar: {}'.format(m))
+#------------------------------------------------------------------------------
+                #Primeira e última ocorrência de uma string
+#fr=str(input('Digite algo ')).strip().upper()
+#print('letra A aparece {} vezes na frase'.format(fr.count('A')))
+#print('A primeira vez que aparece é na posição {}'.format(fr.find('A')+1))
+#print('A ultima vez que aparece é na posição {}'.format(fr.rfind('A')+1))
+#---------------------------------------------------------------------------
+                #Primeiro e último nome de uma pessoa
+#nome=str(input('Por favor insira seu nome completo: ')).strip()
+#n = nome.split()
+#print('prazer em conhecelo(a) {}'.format(n[len(n)-1]))
+#print('primeiro nome {} '.format(n[0]))
+------------------------------------------------------------------------------
+
+
+
+
 
 
 
