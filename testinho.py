@@ -199,18 +199,18 @@
 #        print('melhore negah {}'.format(media))
 #----------------------------------------------------------------------------
                 #SORTEIO
-import random
-from time import sleep
-sort=random.randint(0,5)
-opiniao=int(input('qual foi o numero pensado: '))
-print('PROCESSANDO..')
-sleep(2)
-if opiniao == sort:
-    print('acertou realmente foi {}'.format(sort))
-if opiniao>5:
-    print('mana é so de 0 a 5')
-else:
-    print('errou,mas nao desista,o numero sorteado foi {}'.format(sort))
+#import random
+#from time import sleep
+#sort=random.randint(0,5)
+#opiniao=int(input('qual foi o numero pensado: '))
+#print('PROCESSANDO..')
+#sleep(2)
+#if opiniao == sort:
+#    print('acertou realmente foi {}'.format(sort))
+#if opiniao>5:
+#    print('mana é so de 0 a 5')
+#else:
+#    print('errou,mas nao desista,o numero sorteado foi {}'.format(sort))
 #----------------------------------------------------------------------------
                 #MULTA acima de 80km com if and else
 #km=int(input('qual a velocidade o carro esta? '))
@@ -222,13 +222,81 @@ else:
 #    print('Você esta respeitando o limite')
 #----------------------------------------------------------------------------
                     #VIAGEM 
-#n1=int(input('digite a distancia da viagem: '))
-#if n1>=200:
-#    n2=n1* 0.50
+#n1=float(input('digite a distancia da viagem: '))
+#if n1<=200:
+#    n2 = n1* 0.50
 #    print('sua viagem de {}km a passagem custara R${} '.format(n1,n2))
 #else:
 #    n3=n1*0.45
 #    print('sua viagem de {}km custara R${} '.format(n1,n3))
+#----------------------------------------------------------------------------
+#n=int(input('digite um numero'))
+#calc=n%2
+#if calc==0:
+#    print('o numero {} é par'.format(n))
+#else:
+#    print('{} é impar'.format(n))
+#----------------------------------------------------------------------------
+                # ano bissexto
+#from datetime import date
+#ano=int(input('digite o ano que devo analisar'))
+#if ano ==0:
+#    ano = date.today().year
+#if ano%4 ==0 and  ano % 100 !=0 or ano % 400 ==0:
+#    print('{} é ano bissexto'.format(ano))
+#else:
+ #   print('{} não é bissexto'.format(ano))
+#----------------------------------------------------------------------------
+x=float(input('digite qualquer valor '))
+y=float(input('digite outro valor '))
+z=float(input('digite outro valor '))
+if x==y or x>y:
+    if x==z  :
+        print('os valores mais altos são iguais')
+    else:
+        print('o maior valor é {}'.format(z))
+if x>y:
+    if x>z:
+        print('o maior valor é {}'.format(x))
+    else:
+        print('o maior valor é {}'.format(z)) 
+if z>y:
+    if z>x:
+        print('o maior valor é {}'.format(z))
+    else:
+        print('o maior valor é {}'.format(y))
+        
+        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
