@@ -247,28 +247,46 @@
 #else:
  #   print('{} não é bissexto'.format(ano))
 #----------------------------------------------------------------------------
-x=float(input('digite qualquer valor '))
-y=float(input('digite outro valor '))
-z=float(input('digite outro valor '))
-if x==y or x>y:
-    if x==z  :
-        print('os valores mais altos são iguais')
-    else:
-        print('o maior valor é {}'.format(z))
-if x>y:
-    if x>z:
-        print('o maior valor é {}'.format(x))
-    else:
-        print('o maior valor é {}'.format(z)) 
-if z>y:
-    if z>x:
-        print('o maior valor é {}'.format(z))
-    else:
-        print('o maior valor é {}'.format(y))
-        
-        
+                    #MAIOR E MENOR VALOR
+#x=int(input("digite um numero"))
+#y=int(input("digite um numero"))
+#z=int(input("digite um numero"))
+#menor=x
+#if y<x and y<z:
+#    menor=y
+#if z<x and z<y:
+#    menor=z
+#maior=x
+#if y>x and y>z:
+#    maior=y
+#if z>x and z>y:
+#    maior=z
+#print('O maior numero é {}'.format(maior)) 
+#print('O menor valor digitado foi {}'.format(menor))
+#----------------------------------------------------------------------------    
+                    #AUMENTOS MULTIPLOS
+#x=int(input('Digite o salario'))
+#if x>1250:
+#    aumento=x+(x*0.1)
+#else:
+#    aumento=x+(x*0.15)
+#print('Quem ganhava  {} passara a ganhar {}'.format(x,aumento))
+#------------------------------------------------------------------------------
+                        #TRIANGULO
+#r1=float(input('digite o numero da reta'))
+#r2=float(input('digite outro numero da reta'))
+#r3=float(input('digite mais um numero para a reta'))
+#if r1<r2+r3 and r2<r1+r3 and r3<r1+r2:
+#    print('Pode ser formado um triangulo')
+#else:
+#   print('Não podera ser formado um triangulo')
+#------------------------------------------------------------------------------
+        #COMO COLOCAR COR
+#print('\033[0;33;47m hello word')
+#------------------------------------------------------------------------------
 
 
+    
 
 
 
